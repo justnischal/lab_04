@@ -33,7 +33,7 @@ while True:
         sort_option = int(input("\nChoose sorting parameter (1. Age, 2. Name, 3. Salary, 0. Exit): "))
         if sort_option == 0:
             break
-f sort_option < 0 or sort_option > 3:
+        if sort_option < 0 or sort_option > 3:
             print("Invalid option. Please enter a valid option.")
             continue
 
